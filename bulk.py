@@ -18,7 +18,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from register import register, push_to_foxrouter, FOX_KEY, FOX_URL, _BASE_DELAY, _MAX_DELAY, log
 
-TOTAL = int(sys.argv[1]) if len(sys.argv) > 1 else 10
+import argparse
+_parser = argparse.ArgumentParser(description="Bulk Grok Registration")
+_parser.add_argument("count", type=int, nargs="?", default=10, help="Number of accounts to register")
+_args = _parser.parse_args()
+TOTAL = _args.count
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 ok = []
