@@ -1,0 +1,18 @@
+{
+  "d1": {
+    "url": "https://api.cloudflare.com/client/v4/accounts/ACCOUNT_ID/d1/database/DB_ID/query",
+    "token": "YOUR_CLOUDFLARE_API_TOKEN"
+  },
+  "capsolver_key": "",
+  "boterdrop_url": "http://127.0.0.1:8005",
+  "client_id": "b1a00492-073a-47ea-816f-4c329264a828",
+  "sitekey": "0x4AAAAAAAhr9JGVDZbrZOo0",
+  "email_domain": "yourdomain.com",
+  "default_password": "YourPassword123",
+  "tokens_dir": "tokens",
+  "accounts_file": "accounts.jsonl",
+  "foxrouter": {
+    "url": "",
+    "key": ""
+  }
+}
