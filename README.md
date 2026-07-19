@@ -33,7 +33,7 @@ Automated Grok AI (xAI) account registration via **gRPC-Web API** + **CloakBrows
 - **Python 3.10+**
 - **Catch-all email domain** with Cloudflare Email Routing → D1 database
 - **Turnstile solver** — one of:
-  - [Boterdrop](https://github.com/nicekwell/boterdrop) (free, requires Camoufox server on port 8005)
+  - [Boterdrop Solver](https://github.com/najibyahya/Boterdrop-Solver) (free, requires Camoufox server on port 8005)
   - [Capsolver](https://capsolver.com) (paid, ~$0.003/solve)
 - **CloakBrowser** — headless Chromium with anti-detection
 
@@ -79,7 +79,7 @@ The OTP format is `XX-XXX` (e.g. `A9E-WJR`) — extracted from email subject via
 
 ```bash
 # Run Camoufox-based turnstile solver
-# See: https://github.com/nicekwell/boterdrop
+# See: https://github.com/najibyahya/Boterdrop-Solver
 # Default port: 8005
 ```
 
